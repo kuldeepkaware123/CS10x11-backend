@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 //database connection
-mongoose.connect("mongodb://localhost:27017/cs10");
+mongoose.connect("mongodb+srv://rohitbisen210_db_user:jxePIkIzrdbOsZ34@mydatabase.jx3tgyi.mongodb.net/");
 
 const ProductSchema = new mongoose.Schema({
   name: String,
